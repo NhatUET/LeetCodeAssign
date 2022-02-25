@@ -69,6 +69,7 @@ public class StudentManagement {
         students[1] = s2;
         students[2] = s3;
         StudentManagement studentManagement = new StudentManagement(students);
+
         studentManagement.sort();
         for (int i = 0; i < studentManagement.studentList.length; i++) {
             if (studentManagement.studentList[i] == null) continue;
